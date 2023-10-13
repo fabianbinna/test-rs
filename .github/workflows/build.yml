@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 15 * * FRI'
+    - cron: '10 15 * * FRI'
 
 env:
   CARGO_TERM_COLOR: always
